@@ -1,0 +1,20 @@
+.wrapper {
+    border: thick double #32a1ce;
+    width: 45%;
+    height: 50vh;
+    overflow: hidden;
+    background: transparent;
+    cursor: pointer;
+}
+
+.sticker {
+    position: absolute;
+    /*
+    When the user clicks, a sticker should be placed
+    right underneath the cursor, centered. To accomplish
+    this, we'll slide it up and to the left by 50% of
+    its own size.
+  */
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(4px 8px 0px hsl(250deg 33% 50% / 0.5));
+}
