@@ -2,6 +2,7 @@ import ColorPicker  from './colorPicker/colorPicker';
 import StickerPad  from './stickerPads/stickerPadsComponent';
 import SearchFormParent from './searchForm/searchFormComponent';
 import ShoppingListComponent from './shoppingList/shoppingListComponent';
+import FormControl from './formControl/formControlParent';
 import './App.css';
 
 
@@ -12,6 +13,7 @@ function App() {
       <StickerPad/>
       <SearchFormParent />
       <ShoppingListComponent  />
+      <FormControl />
     </div>
   );
 }
