@@ -23,14 +23,14 @@ function FormControl() {
     const [shape, setShape] = React.useState('circles');
     
     return (
-        <>
+        <div className='art-parent-wrapper'>
         <GenerativeArt
             numOfLines={numOfLines}
             colorTheme={colorTheme}
             shape={shape}
         />
         
-        <form>
+        <form className='art-form-input'>
             <fieldset>
             <legend>Controls</legend>
             <div className="row">
@@ -111,7 +111,7 @@ function FormControl() {
             </div>
             </fieldset>
         </form>
-        </>
+        </div>
     );
 }
 

@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+    justify-self: center;
+    /* Center horizontally */
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .App-logo {

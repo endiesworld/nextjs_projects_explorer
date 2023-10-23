@@ -1,8 +1,8 @@
-import ColorPicker  from './colorPicker/colorPicker';
-import StickerPad  from './stickerPads/stickerPadsComponent';
-import SearchFormParent from './searchForm/searchFormComponent';
-import ShoppingListComponent from './shoppingList/shoppingListComponent';
-import FormControl from './formControl/formControlParent';
+import ColorPicker  from './components/colorPicker/colorPicker';
+import StickerPad  from './components/stickerPads/stickerPadsComponent';
+import SearchFormParent from './components/searchForm/searchFormComponent';
+import ShoppingListComponent from './components/shoppingList/shoppingListComponent';
+import FormControl from './components/formControl/formControlParent';
 import './App.css';
 
 
