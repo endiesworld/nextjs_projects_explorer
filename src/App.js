@@ -4,6 +4,7 @@ import SearchFormParent from './components/searchForm/searchFormComponent';
 import ShoppingListComponent from './components/shoppingList/shoppingListComponent';
 import FormControl from './components/formControl/formControlParent';
 import WorkingWithRef from './components/WorkingWithRef';
+import VideoPlayerComponent from './components/VideoPlayerComponent';
 import './App.css';
 
 
@@ -16,6 +17,7 @@ function App() {
       <ShoppingListComponent  />
       <FormControl />
       <WorkingWithRef />
+      <VideoPlayerComponent />
     </div>
   );
 }
