@@ -1,2 +1,2 @@
-export * from './workingWithRef';
-export { default } from './workingWithRef';
+export * from './WorkingWithRef';
+export { default } from './WorkingWithRef';

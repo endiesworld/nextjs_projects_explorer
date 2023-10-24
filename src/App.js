@@ -3,6 +3,7 @@ import StickerPad  from './components/stickerPads/stickerPadsComponent';
 import SearchFormParent from './components/searchForm/searchFormComponent';
 import ShoppingListComponent from './components/shoppingList/shoppingListComponent';
 import FormControl from './components/formControl/formControlParent';
+import WorkingWithRef from './components/WorkingWithRef';
 import './App.css';
 
 
@@ -14,6 +15,7 @@ function App() {
       <SearchFormParent />
       <ShoppingListComponent  />
       <FormControl />
+      <WorkingWithRef />
     </div>
   );
 }

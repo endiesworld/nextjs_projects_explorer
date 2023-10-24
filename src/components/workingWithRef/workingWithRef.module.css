@@ -1,0 +1,15 @@
+.wrapper {
+    border: thick double #32a1ce;
+    width: 45%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.canvas_wrapper{
+    background-color: #0e0e21;
+    width: 45%;
+}
