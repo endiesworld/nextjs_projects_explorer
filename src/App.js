@@ -5,6 +5,8 @@ import ShoppingListComponent from './components/shoppingList/shoppingListCompone
 import FormControl from './components/formControl/formControlParent';
 import WorkingWithRef from './components/WorkingWithRef';
 import VideoPlayerComponent from './components/VideoPlayerComponent';
+import Mediaplayer from './components/Mediaplayer';
+
 import './App.css';
 
 
@@ -18,6 +20,7 @@ function App() {
       <FormControl />
       <WorkingWithRef />
       <VideoPlayerComponent />
+      <Mediaplayer />
     </div>
   );
 }
