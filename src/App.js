@@ -7,6 +7,7 @@ import WorkingWithRef from './components/WorkingWithRef';
 import VideoPlayerComponent from './components/VideoPlayerComponent';
 import Mediaplayer from './components/Mediaplayer';
 import Counter from './components/Counter';
+import DarkMode from './components/DarkMode';
 
 import './App.css';
 
@@ -23,6 +24,7 @@ function App() {
       <VideoPlayerComponent />
       <Mediaplayer />
       <Counter />
+      <DarkMode />
     </div>
   );
 }
