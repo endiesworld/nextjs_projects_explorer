@@ -6,6 +6,7 @@ import FormControl from './components/formControl/formControlParent';
 import WorkingWithRef from './components/WorkingWithRef';
 import VideoPlayerComponent from './components/VideoPlayerComponent';
 import Mediaplayer from './components/Mediaplayer';
+import Counter from './components/Counter';
 
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
       <WorkingWithRef />
       <VideoPlayerComponent />
       <Mediaplayer />
+      <Counter />
     </div>
   );
 }

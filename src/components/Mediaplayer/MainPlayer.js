@@ -5,11 +5,11 @@ import VisuallyHidden from './VisuallyHidden';
 
 function MainPlayer({ src }) {
     const playerRef = React.useRef() ;
-    const [playing, setPlaying] = React.useState(false);
+    const [isPlaying, setIsPlaying] = React.useState(false);
 
     function handleClick(){
-        const playingState = !playing ;
-        setPlaying(playingState) ;
+        const playingState = !isPlaying ;
+        setIsPlaying(playingState) ;
         playingState ? playerRef.current.play() : playerRef.current.pause() ;
     }
 
@@ -25,13 +25,19 @@ function MainPlayer({ src }) {
             <p>Bvrnout ft. Mia Vaile</p>
             </div>
             <button onClick={ handleClick}>
-            {playing ? <Pause />: <Play /> }
+            {isPlaying ? <Pause />: <Play /> }
             <VisuallyHidden>
                 Toggle playing
             </VisuallyHidden>
             </button>
             
-            <audio src={src} ref={playerRef}/>
+            <audio 
+                src={src} 
+                ref={playerRef}
+                onEnded={() => {
+                    setIsPlaying(false);
+                }}
+            />
         </div>
         </div>
     );
