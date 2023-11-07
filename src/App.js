@@ -9,6 +9,7 @@ import Mediaplayer from './components/Mediaplayer';
 import Counter from './components/Counter';
 import DarkMode from './components/DarkMode';
 import GlobalEvent from './components/GlobalEvent';
+import ResizeWindow from './components/ResizeWindow';
 import './App.css';
 
 
@@ -26,6 +27,7 @@ function App() {
       <Counter />
       <DarkMode />
       <GlobalEvent />
+      <ResizeWindow />
     </div>
   );
 }
