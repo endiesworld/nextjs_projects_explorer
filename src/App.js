@@ -8,7 +8,7 @@ import VideoPlayerComponent from './components/VideoPlayerComponent';
 import Mediaplayer from './components/Mediaplayer';
 import Counter from './components/Counter';
 import DarkMode from './components/DarkMode';
-
+import GlobalEvent from './components/GlobalEvent';
 import './App.css';
 
 
@@ -25,6 +25,7 @@ function App() {
       <Mediaplayer />
       <Counter />
       <DarkMode />
+      <GlobalEvent />
     </div>
   );
 }
