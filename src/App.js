@@ -10,6 +10,7 @@ import Counter from './components/Counter';
 import DarkMode from './components/DarkMode';
 import GlobalEvent from './components/GlobalEvent';
 import ResizeWindow from './components/ResizeWindow';
+import ToastyEffect from './components/ToastyEffect';
 import './App.css';
 
 
@@ -28,6 +29,7 @@ function App() {
       <DarkMode />
       <GlobalEvent />
       <ResizeWindow />
+      <ToastyEffect />
     </div>
   );
 }
