@@ -11,6 +11,8 @@ import DarkMode from './components/DarkMode';
 import GlobalEvent from './components/GlobalEvent';
 import ResizeWindow from './components/ResizeWindow';
 import ToastyEffect from './components/ToastyEffect';
+import Clock from './components/DigitalClock';
+
 import './App.css';
 
 
@@ -30,6 +32,7 @@ function App() {
       <GlobalEvent />
       <ResizeWindow />
       <ToastyEffect />
+      <Clock />
     </div>
   );
 }
