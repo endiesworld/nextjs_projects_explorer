@@ -12,6 +12,7 @@ import GlobalEvent from './components/GlobalEvent';
 import ResizeWindow from './components/ResizeWindow';
 import ToastyEffect from './components/ToastyEffect';
 import Clock from './components/DigitalClock';
+import UselessMachine from './components/UselessMachine';
 
 import './App.css';
 
@@ -33,6 +34,7 @@ function App() {
       <ResizeWindow />
       <ToastyEffect />
       <Clock />
+      <UselessMachine />
     </div>
   );
 }

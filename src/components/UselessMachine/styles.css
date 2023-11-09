@@ -1,0 +1,15 @@
+
+.useless-machine {
+    padding: 0px;
+    background-color: hsl(200deg 1000% 88%);
+    display: grid;
+    place-content: center;
+    border: thick double #32a1ce;
+    width: 45%;
+    height: 50vh;
+}
+
+
+input {
+    transform: scale(8);
+}
