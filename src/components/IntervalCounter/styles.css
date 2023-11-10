@@ -1,0 +1,9 @@
+.timer{
+    border: thick double #32a1ce;
+    width: 45%;
+    height: 50vh;
+    background-color: hsl(200deg 1000% 88%);
+    display: grid;
+    place-content: center;
+    gap: 15px;
+}

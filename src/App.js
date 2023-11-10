@@ -1,3 +1,5 @@
+import React from 'react';
+
 import ColorPicker  from './components/colorPicker/colorPicker';
 import StickerPad  from './components/stickerPads/stickerPadsComponent';
 import SearchFormParent from './components/searchForm/searchFormComponent';
@@ -13,13 +15,15 @@ import ResizeWindow from './components/ResizeWindow';
 import ToastyEffect from './components/ToastyEffect';
 import Clock from './components/DigitalClock';
 import UselessMachine from './components/UselessMachine';
+import IntervalCounter from './components/IntervalCounter';
 
 import './App.css';
 
 
 function App() {
   return (
-    <div className="App">
+    <React.StrictMode>
+      <div className="App">
       <ColorPicker/>
       <StickerPad/>
       <SearchFormParent />
@@ -35,7 +39,10 @@ function App() {
       <ToastyEffect />
       <Clock />
       <UselessMachine />
+      <IntervalCounter />
     </div>
+    </React.StrictMode>
+    
   );
 }
 
