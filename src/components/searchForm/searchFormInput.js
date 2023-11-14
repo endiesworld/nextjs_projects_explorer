@@ -17,6 +17,7 @@ function SearchFormInput({searchTerm, setSearchTerm}) {
             Search term:
         </label>
         <input
+            type="text"
             id="search-input"
             className="search-input"
             value={searchTerm}

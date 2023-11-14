@@ -142,6 +142,7 @@ function ColorPicker() {
                 </label>
                 <div className="input-wrapper">
                     <input
+                    className='input-tag'
                     id={colorId}
                     type="color"
                     value={color}
