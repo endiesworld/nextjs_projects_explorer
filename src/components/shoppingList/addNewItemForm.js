@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './shoppingListstyles.module.css';
 
 function AddNewItemForm({items, setItems}) {
     const [initValue, updateValue] = React.useState('')
@@ -10,13 +11,14 @@ function AddNewItemForm({items, setItems}) {
     }
     return (
         <div className="new-list-item-form">
-        <form onSubmit={e => addItems(e)}>
+        <form onSubmit={e => addItems(e)} className={styles.form_container}>
             <label htmlFor="new-list-form-input">
             New item:
             </label>
             
             <div className="row">
             <input
+            className={styles.form_search_input}
                 required={true}
                 id="new-list-form-input"
                 type="text"

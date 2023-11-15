@@ -6,14 +6,26 @@ import SearchResult from './searchResult';
 function SearchFormParent() {
     const [searchTerm, setSearchTerm] = useState('');
     return (
-        <div className= 'wrapper' style={{
+        <div  style={{
             width: "45%",
             height: "50vh",
-            border: "thick double #32a1ce"
+            border: "thick double #32a1ce",
+            position: "relative",
+            display: "flex",
+            flexDirection: "column",
+
         }}>
-        <header>
+        <header style={{
+            width: "100%",
+            height: "20%",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "5px",
+        }}>
             <a className="logo" href="/">
-            Wanda’s Fruits
+            Emmanuel’s Fruits
             </a>
             <SearchFormInput searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
         </header>

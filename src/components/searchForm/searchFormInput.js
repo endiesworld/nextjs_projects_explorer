@@ -1,3 +1,5 @@
+import "./searchFormCSS.css"
+
 
 function SearchFormInput({searchTerm, setSearchTerm}) {
     
@@ -9,7 +11,7 @@ function SearchFormInput({searchTerm, setSearchTerm}) {
     }
     
     return (
-        <form onSubmit={runSearch}>
+        <form onSubmit={runSearch} className="form-container">
         <label
             className="visually-hidden"
             htmlFor="search-input"
@@ -19,7 +21,7 @@ function SearchFormInput({searchTerm, setSearchTerm}) {
         <input
             type="text"
             id="search-input"
-            className="search-input"
+            className="form-search-input"
             value={searchTerm}
             onChange={event => {
             setSearchTerm(event.target.value);

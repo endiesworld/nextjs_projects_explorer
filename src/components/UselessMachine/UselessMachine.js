@@ -29,6 +29,7 @@ function UselessMachine() {
   return (
     <div className='useless-machine'>
       <input
+        className='useless-machine-input'
         id={id}
         type="checkbox"
         checked={isOn}

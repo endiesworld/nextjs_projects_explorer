@@ -27,7 +27,7 @@ function App() {
       <ColorPicker/>
       <StickerPad/>
       <SearchFormParent />
-      {/* <ShoppingListComponent  />
+      <ShoppingListComponent  />
       <FormControl />
       <WorkingWithRef />
       <VideoPlayerComponent />
@@ -39,7 +39,7 @@ function App() {
       <ToastyEffect />
       <Clock />
       <UselessMachine />
-      <IntervalCounter /> */}
+      <IntervalCounter />
     </div>
     </React.StrictMode>
     
