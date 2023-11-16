@@ -16,6 +16,7 @@ import ToastyEffect from './components/ToastyEffect';
 import Clock from './components/DigitalClock';
 import UselessMachine from './components/UselessMachine';
 import IntervalCounter from './components/IntervalCounter';
+import IntersectionObserver from './components/IntersectionObserver';
 
 import './App.css';
 
@@ -40,6 +41,7 @@ function App() {
       <Clock />
       <UselessMachine />
       <IntervalCounter />
+      <IntersectionObserver /> 
     </div>
     </React.StrictMode>
     
