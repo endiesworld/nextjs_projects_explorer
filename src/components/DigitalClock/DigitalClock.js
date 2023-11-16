@@ -1,19 +1,20 @@
 import React from 'react';
 
 import Clock from './Clock'
+import useToggle from './useTogle';
 
 function DigitalClock() {
-  const [showClock, setShowClock] = React.useState(true);
+  const [value, tuggleValue] = useToggle (true);
   return (
   <div className='wrapper'>
     <button
         className="clock-toggle"
-        onClick={() => setShowClock(!showClock)}
+        onClick={tuggleValue}
       >
-        {showClock ? 'Clock ON' : 'Clock OFF'}
+        {value? 'Clock ON' : 'Clock OFF'}
       </button>
       
-      {showClock && <Clock />}
+      {value && <Clock />}
   </div>
 );
 }
