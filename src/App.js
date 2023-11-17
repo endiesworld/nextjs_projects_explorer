@@ -17,6 +17,7 @@ import Clock from './components/DigitalClock';
 import UselessMachine from './components/UselessMachine';
 import IntervalCounter from './components/IntervalCounter';
 import IntersectionObserver from './components/IntersectionObserver';
+import ContactForm from './components/ContactForm';
 
 import './App.css';
 
@@ -42,6 +43,7 @@ function App() {
       <UselessMachine />
       <IntervalCounter />
       <IntersectionObserver /> 
+      <ContactForm />
     </div>
     </React.StrictMode>
     
