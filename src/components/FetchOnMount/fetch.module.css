@@ -1,0 +1,19 @@
+.wrapper {
+    width: 45%;
+    height: 25vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color:burlywood;
+    border: thick double #32a1ce;
+}
+
+.temperature{
+    font-size: 3rem;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    font-weight: bold;
+}
