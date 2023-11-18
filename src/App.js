@@ -19,6 +19,7 @@ import IntervalCounter from './components/IntervalCounter';
 import IntersectionObserver from './components/IntersectionObserver';
 import ContactForm from './components/ContactForm';
 import FetchOnMount from './components/FetchOnMount';
+import BookSearch from './components/BookSearch';
 
 import './App.css';
 
@@ -46,6 +47,7 @@ function App() {
       <IntersectionObserver /> 
       <ContactForm />
       <FetchOnMount /> 
+      <BookSearch />
     </div>
     </React.StrictMode>
     

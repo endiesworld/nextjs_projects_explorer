@@ -1,0 +1,28 @@
+.wrapper {
+    width: 45%;
+    height: 25vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 24px;
+    border: thick double #32a1ce;
+}
+
+.header{
+    width: 100%;
+    height: 15%;
+    background-color: khaki;
+    border-bottom: solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form {
+    padding-right: 5%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
