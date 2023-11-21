@@ -1,15 +1,17 @@
 import React from 'react';
+import style from './bookSearch.module.css';
 
 function SearchResult({ result }) {
+    console.log(result.coverSrc)
     return (
-        <article className="search-result">
-        <div className="image-container">
-            <img
+        <article className={style.search_result}>
+        <div className={style.image_container}>
+            <img className={style.search_result_img}
             alt=""
             src={result.coverSrc}
             />
         </div>
-        <div className="description">
+        <div className={style.description}>
             <p className="name">
             {result.name}
             </p>

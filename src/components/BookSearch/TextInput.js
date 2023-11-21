@@ -8,11 +8,11 @@ function TextInput({ id, label, ...delegated }) {
     let appliedId = id || generatedId;
 
     return (
-        <>
+        < >
         <label htmlFor={appliedId}>
             {label}
         </label>
-        <input
+        <input 
             id={appliedId}
             {...delegated}
         />

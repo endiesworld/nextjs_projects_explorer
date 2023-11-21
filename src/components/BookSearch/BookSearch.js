@@ -15,7 +15,7 @@ function BookSearch() {
   const [
     searchResults,
     setSearchResults,
-  ] = React.useState(null);
+  ] = React.useState([EXAMPLE]);
 
   // idle | loading | success | error | empty
   const [status, setStatus] = React.useState(
@@ -60,7 +60,7 @@ function BookSearch() {
         </form>
       </header>
 
-      <main>
+      <main className={style.search_result_container}>
         {status === 'idle' && (
           <p>Welcome to book search!</p>
         )}
@@ -74,7 +74,7 @@ function BookSearch() {
           <p>No results</p>
         )}
         {status === 'success' && (
-          <div className="search-results">
+          <div className={style.search_results}>
             <h2>Search Results:</h2>
             {searchResults?.map((result) => (
               <SearchResult
@@ -88,6 +88,15 @@ function BookSearch() {
     </div>
   );
 }
+
+const EXAMPLE = {
+  isbn: '9781473621442',
+  name: 'A Closed and Common Orbit',
+  author: 'Becky Chambers',
+  coverSrc: 'https://sandpack-bundler.vercel.app/img/book-covers/common-orbit.jpg',
+  abstract:
+    "Lovelace was once merely a ship's artificial intelligence. When she wakes up in an new body, following a total system shut-down and reboot, she has no memory of what came before. As Lovelace learns to negotiate the universe and discover who she is, she makes friends with Pepper, an excitable engineer, who's determined to help her learn and grow.",
+};
 
 
 export default BookSearch;
