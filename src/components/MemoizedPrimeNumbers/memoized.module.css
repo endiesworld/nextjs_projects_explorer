@@ -1,0 +1,12 @@
+.wrapper {
+    width: 45%;
+    height: 20vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border: thick double #32a1ce;
+    background-color: cadetblue;
+}

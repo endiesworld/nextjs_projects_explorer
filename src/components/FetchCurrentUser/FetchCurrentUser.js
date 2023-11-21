@@ -36,9 +36,11 @@ function FetchCurrentUser() {
   if (error){
     return <p className={style.wrapper}> Something went wrong!</p>
   }
+  if (data?.user) {
   return (
     <UserCard name={data.user.name} email={data.user.email}  />
   );
+  }
 }
 
 export default FetchCurrentUser;

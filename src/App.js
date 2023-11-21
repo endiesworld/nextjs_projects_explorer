@@ -21,6 +21,7 @@ import ContactForm from './components/ContactForm';
 import FetchOnMount from './components/FetchOnMount';
 import BookSearch from './components/BookSearch';
 import FetchCurrentUser from './components/FetchCurrentUser';
+import MemoizedPrimeNumbers from './components/MemoizedPrimeNumbers';
 
 import './App.css';
 
@@ -50,6 +51,7 @@ function App() {
       <FetchOnMount /> 
       <BookSearch />
       <FetchCurrentUser /> 
+      <MemoizedPrimeNumbers />
     </div>
     </React.StrictMode>
     
