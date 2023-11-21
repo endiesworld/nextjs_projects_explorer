@@ -20,6 +20,7 @@ import IntersectionObserver from './components/IntersectionObserver';
 import ContactForm from './components/ContactForm';
 import FetchOnMount from './components/FetchOnMount';
 import BookSearch from './components/BookSearch';
+import FetchCurrentUser from './components/FetchCurrentUser';
 
 import './App.css';
 
@@ -48,6 +49,7 @@ function App() {
       <ContactForm />
       <FetchOnMount /> 
       <BookSearch />
+      <FetchCurrentUser /> 
     </div>
     </React.StrictMode>
     
