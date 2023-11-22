@@ -1,0 +1,18 @@
+.wrapper {
+    width: 45%;
+    height: 50vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    gap: 24px;
+    border: thick double #32a1ce;
+}
+
+.mega_boost_button{
+    width: 45%;
+    height: 20%;
+    background-color: aqua;
+}

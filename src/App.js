@@ -23,6 +23,7 @@ import BookSearch from './components/BookSearch';
 import FetchCurrentUser from './components/FetchCurrentUser';
 import MemoizedPrimeNumbers from './components/MemoizedPrimeNumbers';
 import MemoizedPureBoxes from './components/MemoizedPureBoxes';
+import MemoizedUseCallback from './components/MemoizedUseCallback';
 
 import './App.css';
 
@@ -54,6 +55,7 @@ function App() {
       <FetchCurrentUser /> 
       <MemoizedPrimeNumbers />
       <MemoizedPureBoxes />
+      <MemoizedUseCallback />
     </div>
     </React.StrictMode>
     
