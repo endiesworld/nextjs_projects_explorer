@@ -1,0 +1,45 @@
+.wrapper {
+    width: 45%;
+    height: 50vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border: thick double #32a1ce;
+    overflow: auto;
+}
+
+.form_handler{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.grid_wrapper{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.cell{
+    aspect-ratio: 1 / 1;
+    width: 20%;
+    border:  1px solid black;
+}

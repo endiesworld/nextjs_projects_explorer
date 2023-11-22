@@ -24,6 +24,7 @@ import FetchCurrentUser from './components/FetchCurrentUser';
 import MemoizedPrimeNumbers from './components/MemoizedPrimeNumbers';
 import MemoizedPureBoxes from './components/MemoizedPureBoxes';
 import MemoizedUseCallback from './components/MemoizedUseCallback';
+import GridMouseEvent from './components/GridMouseEvent';
 
 import './App.css';
 
@@ -56,6 +57,7 @@ function App() {
       <MemoizedPrimeNumbers />
       <MemoizedPureBoxes />
       <MemoizedUseCallback />
+      <GridMouseEvent />
     </div>
     </React.StrictMode>
     
