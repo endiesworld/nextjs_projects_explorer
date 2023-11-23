@@ -1,0 +1,23 @@
+.wrapper {
+    width: 45%;
+    height: 25vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5%;
+    gap: 24px;
+    border: thick double #32a1ce;
+    background-color: darksalmon;
+}
+
+.tuggle_button {
+    width: 25%;
+    height: 30%;
+    font-size: 20px;
+}
+
+.clock{
+    font-size: xxx-large;
+}

@@ -4,7 +4,7 @@
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     gap: 24px;
     border: thick double #32a1ce;
@@ -25,7 +25,7 @@
     height: 100%;
     padding-right: 5%;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -38,7 +38,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     gap: 24px;
 }
@@ -46,7 +46,7 @@
 .search_result{
     width: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     gap: 24px;
     border: dashed #000;
