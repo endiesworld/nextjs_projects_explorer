@@ -26,8 +26,10 @@ import MemoizedPureBoxes from './components/MemoizedPureBoxes';
 import MemoizedUseCallback from './components/MemoizedUseCallback';
 import GridMouseEvent from './components/GridMouseEvent';
 import Banner from './components/Banner';
+import ProductInfoPage from './components/ProductInfoPage';
 
 import './App.css';
+
 
 
 function App() {
@@ -60,6 +62,7 @@ function App() {
       <MemoizedUseCallback />
       <GridMouseEvent />
       <Banner />
+      <ProductInfoPage />
     </div>
     </React.StrictMode>
     
