@@ -25,6 +25,7 @@ import MemoizedPrimeNumbers from './components/MemoizedPrimeNumbers';
 import MemoizedPureBoxes from './components/MemoizedPureBoxes';
 import MemoizedUseCallback from './components/MemoizedUseCallback';
 import GridMouseEvent from './components/GridMouseEvent';
+import Banner from './components/Banner';
 
 import './App.css';
 
@@ -58,6 +59,7 @@ function App() {
       <MemoizedPureBoxes />
       <MemoizedUseCallback />
       <GridMouseEvent />
+      <Banner />
     </div>
     </React.StrictMode>
     

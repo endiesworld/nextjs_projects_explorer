@@ -1,0 +1,12 @@
+.wrapper{
+    width: 45%;
+    height: 25vh;
+    margin-top: 10px;
+    border: thick double #32a1ce;
+}
+
+.banner {
+    padding: 16px;
+    border-radius: 4px;
+    text-align: center;
+}
