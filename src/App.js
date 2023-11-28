@@ -27,6 +27,7 @@ import MemoizedUseCallback from './components/MemoizedUseCallback';
 import GridMouseEvent from './components/GridMouseEvent';
 import Banner from './components/Banner';
 import ProductInfoPage from './components/ProductInfoPage';
+import SharedCardComponent from './components/SharedCardComponent';
 
 import './App.css';
 
@@ -63,6 +64,7 @@ function App() {
       <GridMouseEvent />
       <Banner />
       <ProductInfoPage />
+      <SharedCardComponent />
     </div>
     </React.StrictMode>
     

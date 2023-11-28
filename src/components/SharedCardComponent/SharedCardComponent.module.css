@@ -1,0 +1,39 @@
+html {
+    /*
+    These CSS variables establish different
+    values to be used with the “box-shadow”
+    property, to simulate elements being
+    at different elevation levels.
+  */
+    --elevation-1:
+        0px 0.5px 1px hsl(0deg 0% 0% / 0.2),
+        0px 1px 2px hsl(0deg 0% 0% / 0.15),
+        0px 2px 4px hsl(0deg 0% 0% / 0.1);
+    --elevation-2:
+        0px 1px 2px hsl(0deg 0% 0% / 0.2),
+        0px 2px 4px hsl(0deg 0% 0% / 0.15),
+        0px 4px 8px hsl(0deg 0% 0% / 0.15),
+        0px 8px 16px hsl(0deg 0% 0% / 0.1);
+    --elevation-3:
+        0px 1px 2px hsl(0deg 0% 0% / 0.15),
+        0px 2px 4px hsl(0deg 0% 0% / 0.15),
+        0px 4px 8px hsl(0deg 0% 0% / 0.125),
+        0px 8px 16px hsl(0deg 0% 0% / 0.125),
+        0px 16px 32px hsl(0deg 0% 0% / 0.1),
+        0px 32px 64px hsl(0deg 0% 0% / 0.1);
+}
+
+.wrapper {
+    background: hsl(270deg 100% 80%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 0px;
+    width: 45%;
+    height: 50vh;
+    margin-top: 10px;
+    border: thick double #32a1ce;
+    overflow: auto;
+}
