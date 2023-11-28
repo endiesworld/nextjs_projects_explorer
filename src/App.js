@@ -28,7 +28,7 @@ import GridMouseEvent from './components/GridMouseEvent';
 import Banner from './components/Banner';
 import ProductInfoPage from './components/ProductInfoPage';
 import SharedCardComponent from './components/SharedCardComponent';
-
+import PropsDelegationSliderComponent from './components/PropsDelegationSliderComponent';
 import './App.css';
 
 
@@ -65,6 +65,7 @@ function App() {
       <Banner />
       <ProductInfoPage />
       <SharedCardComponent />
+      <PropsDelegationSliderComponent />
     </div>
     </React.StrictMode>
     
