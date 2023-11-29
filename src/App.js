@@ -29,6 +29,7 @@ import Banner from './components/Banner';
 import ProductInfoPage from './components/ProductInfoPage';
 import SharedCardComponent from './components/SharedCardComponent';
 import PropsDelegationSliderComponent from './components/PropsDelegationSliderComponent';
+import ToggleComponents from './components/ToggleComponents';
 import './App.css';
 
 
@@ -66,6 +67,7 @@ function App() {
       <ProductInfoPage />
       <SharedCardComponent />
       <PropsDelegationSliderComponent />
+      <ToggleComponents />
     </div>
     </React.StrictMode>
     
