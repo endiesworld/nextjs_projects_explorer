@@ -30,6 +30,7 @@ import ProductInfoPage from './components/ProductInfoPage';
 import SharedCardComponent from './components/SharedCardComponent';
 import PropsDelegationSliderComponent from './components/PropsDelegationSliderComponent';
 import ToggleComponents from './components/ToggleComponents';
+import ForwardingRef from './components/ForwardingRef';
 import './App.css';
 
 
@@ -68,6 +69,7 @@ function App() {
       <SharedCardComponent />
       <PropsDelegationSliderComponent />
       <ToggleComponents />
+      <ForwardingRef />
     </div>
     </React.StrictMode>
     
